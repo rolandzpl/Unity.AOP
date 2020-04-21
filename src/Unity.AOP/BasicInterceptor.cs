@@ -5,7 +5,7 @@ using Unity.Interception.PolicyInjection.Pipeline;
 
 namespace Lithium.Unity.AOP
 {
-    public class Class1 : IInterceptionBehavior
+    public class BasicInterceptor : IInterceptionBehavior
     {
         public bool WillExecute => true;
 

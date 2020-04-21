@@ -5,6 +5,20 @@
     <RootNamespace>Lithium.Unity.AOP</RootNamespace>
   </PropertyGroup>
 
+  <PropertyGroup>
+    <PackageId>Lithium.Unity.AOP</PackageId>
+    <Title>Unity container AOP support</Title>
+    <Description>
+      Support for Aspect Oriented Programming in Unity container in dotnet.
+    </Description>
+    <Authors>Roland Żerek</Authors>
+    <Company>lithium.com.pl</Company>
+    <Copyright>Copyright © 2020 by Roland Żerek (lithium.com.pl)</Copyright>
+    <RepositoryType>git</RepositoryType>
+    <RepositoryUrl>https://github.com/rolandzpl/Unity.AOP.git</RepositoryUrl>
+    <PackageProjectUrl>https://github.com/rolandzpl/Unity.AOP</PackageProjectUrl>
+  </PropertyGroup>
+
   <ItemGroup>
     <PackageReference Include="Unity" Version="5.11.5" />
     <PackageReference Include="Unity.Interception" Version="5.11.1" />
